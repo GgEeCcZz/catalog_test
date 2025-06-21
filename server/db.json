@@ -1,0 +1,652 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "name": "Яблоко",
+      "price": "120",
+      "img": "https://images.unsplash.com/photo-1579613832125-5d34a13ffe2a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "fruit",
+      "category": "food"
+    },
+    {
+      "id": 2,
+      "name": "Банан",
+      "price": "95",
+      "img": "https://images.unsplash.com/photo-1481349518771-20055b2a7b24?q=80&w=2139&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "fruit",
+      "category": "food"
+    },
+    {
+      "id": 3,
+      "name": "Апельсин",
+      "price": "130",
+      "img": "https://images.unsplash.com/photo-1609424572698-04d9d2e04954?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "fruit",
+      "category": "food"
+    },
+    {
+      "id": 4,
+      "name": "Манго",
+      "price": "250",
+      "img": "https://images.unsplash.com/photo-1591073113125-e46713c829ed?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "fruit",
+      "category": "food"
+    },
+    {
+      "id": 5,
+      "name": "Ананас",
+      "price": "300",
+      "img": "https://plus.unsplash.com/premium_photo-1661311944974-b5d24554c2c5?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "fruit",
+      "category": "food"
+    },
+    {
+      "id": 6,
+      "name": "Киви",
+      "price": "160",
+      "img": "https://images.unsplash.com/photo-1585059895524-72359e06133a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "fruit",
+      "category": "food"
+    },
+    {
+      "id": 7,
+      "name": "Виноград",
+      "price": "180",
+      "img": "https://plus.unsplash.com/premium_photo-1724250450261-80b25f8e3fab?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "fruit",
+      "category": "food"
+    },
+    {
+      "id": 8,
+      "name": "Морковь",
+      "price": "40",
+      "img": "https://plus.unsplash.com/premium_photo-1724849305147-0294068d1c55?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "vegetable",
+      "category": "food"
+    },
+    {
+      "id": 9,
+      "name": "Помидор",
+      "price": "160",
+      "img": "https://images.unsplash.com/photo-1576856497337-4f2be24683da?q=80&w=1991&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "vegetable",
+      "category": "food"
+    },
+    {
+      "id": 10,
+      "name": "Огурец",
+      "price": "110",
+      "img": "https://images.unsplash.com/photo-1589621316382-008455b857cd?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "vegetable",
+      "category": "food"
+    },
+    {
+      "id": 11,
+      "name": "Брокколи",
+      "price": "230",
+      "img": "https://images.unsplash.com/photo-1615485291234-9d694218aeb3?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "vegetable",
+      "category": "food"
+    },
+    {
+      "id": 12,
+      "name": "Лук",
+      "price": "35",
+      "img": "https://images.unsplash.com/photo-1585849834908-3481231155e8?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "vegetable",
+      "category": "food"
+    },
+    {
+      "id": 13,
+      "name": "Картофель",
+      "price": "30",
+      "img": "https://plus.unsplash.com/premium_photo-1724256032011-4f9e9548fe34?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "vegetable",
+      "category": "food"
+    },
+    {
+      "id": 14,
+      "name": "Болгарский перец",
+      "price": "180",
+      "img": "https://images.unsplash.com/photo-1572721794563-b799a41226ac?q=80&w=1950&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "vegetable",
+      "category": "food"
+    },
+    {
+      "id": 15,
+      "name": "Клубника",
+      "price": "300",
+      "img": "https://plus.unsplash.com/premium_photo-1724256148318-388029ff4dd4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "berry",
+      "category": "food"
+    },
+    {
+      "id": 16,
+      "name": "Малина",
+      "price": "450",
+      "img": "https://images.unsplash.com/photo-1530983820165-35b7aa38a105?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "berry",
+      "category": "food"
+    },
+    {
+      "id": 17,
+      "name": "Черника",
+      "price": "600",
+      "img": "https://images.unsplash.com/photo-1606757389667-45c2024f9fa4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "berry",
+      "category": "food"
+    },
+    {
+      "id": 18,
+      "name": "Ежевика",
+      "price": "500",
+      "img": "https://images.unsplash.com/photo-1669562064740-e7d35af4cdb3?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "berry",
+      "category": "food"
+    },
+    {
+      "id": 19,
+      "name": "Клюква",
+      "price": "350",
+      "img": "https://plus.unsplash.com/premium_photo-1663840820025-110ceadc4e60?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "berry",
+      "category": "food"
+    },
+    {
+      "id": 20,
+      "name": "Вишня",
+      "price": "280",
+      "img": "https://images.unsplash.com/photo-1527948132841-7fef35986128?q=80&w=2060&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "berry",
+      "category": "food"
+    },
+    {
+      "id": 21,
+      "name": "Крыжовник",
+      "price": "220",
+      "img": "https://images.unsplash.com/photo-1596311672179-051eee8416ec?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "berry",
+      "category": "food"
+    },
+    {
+      "id": 22,
+      "name": "Куриная грудка",
+      "price": "250",
+      "img": "https://images.unsplash.com/photo-1633096013004-e2cb4023b560?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "meat",
+      "category": "food"
+    },
+    {
+      "id": 23,
+      "name": "Свиная отбивная",
+      "price": "360",
+      "img": "https://images.unsplash.com/photo-1708388464065-e418c2a75077?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "meat",
+      "category": "food"
+    },
+    {
+      "id": 24,
+      "name": "Говяжий стейк",
+      "price": "750",
+      "img": "https://plus.unsplash.com/premium_photo-1723701650082-276bf9a3668b?q=80&w=2085&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "meat",
+      "category": "food"
+    },
+    {
+      "id": 25,
+      "name": "Филе индейки",
+      "price": "400",
+      "img": "https://images.unsplash.com/photo-1641898378548-ac93da99786a?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "meat",
+      "category": "food"
+    },
+    {
+      "id": 26,
+      "name": "Бараньи рёбра",
+      "price": "580",
+      "img": "https://images.unsplash.com/photo-1592877186734-6e558cf0dfaf?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "meat",
+      "category": "food"
+    },
+    {
+      "id": 27,
+      "name": "Бекон",
+      "price": "420",
+      "img": "https://plus.unsplash.com/premium_photo-1725899526027-d70de4e01ee8?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "meat",
+      "category": "food"
+    },
+    {
+      "id": 28,
+      "name": "Белая футболка",
+      "price": 799,
+      "img": "https://plus.unsplash.com/premium_photo-1718913931807-4da5b5dd27fa?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "t-shirt",
+      "category": "cloth"
+    },
+    {
+      "id": 29,
+      "name": "Чёрная футболка",
+      "price": 849,
+      "img": "https://images.unsplash.com/photo-1562135291-7728cc647783?q=80&w=2060&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "t-shirt",
+      "category": "cloth"
+    },
+    {
+      "id": 30,
+      "name": "Футболка с принтом",
+      "price": 1090,
+      "img": "https://images.unsplash.com/photo-1660692694114-9459092dd49f?q=80&w=2038&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "t-shirt",
+      "category": "cloth"
+    },
+    {
+      "id": 31,
+      "name": "Футболка оверсайз",
+      "price": 1190,
+      "img": "https://plus.unsplash.com/premium_photo-1718913936342-eaafff98834b?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "t-shirt",
+      "category": "cloth"
+    },
+    {
+      "id": 32,
+      "name": "Футболка из органического хлопка",
+      "price": 1290,
+      "img": "https://images.unsplash.com/photo-1651761179569-4ba2aa054997?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "t-shirt",
+      "category": "cloth"
+    },
+    {
+      "id": 33,
+      "name": "Спортивная футболка",
+      "price": 950,
+      "img": "https://images.unsplash.com/photo-1718731236356-3b984904ac7d?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "t-shirt",
+      "category": "cloth"
+    },
+    {
+      "id": 34,
+      "name": "Футболка с длинным рукавом",
+      "price": 1150,
+      "img": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?q=80&w=1972&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "t-shirt",
+      "category": "cloth"
+    },
+    {
+      "id": 35,
+      "name": "Поло",
+      "price": 1390,
+      "img": "https://images.unsplash.com/photo-1714317438040-0e8584215699?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "t-shirt",
+      "category": "cloth"
+    },
+    {
+      "id": 36,
+      "name": "Джинсовые шорты",
+      "price": 1490,
+      "img": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "shorts",
+      "category": "cloth"
+    },
+    {
+      "id": 37,
+      "name": "Спортивные шорты",
+      "price": 990,
+      "img": "https://plus.unsplash.com/premium_photo-1726098080905-982e83fbf157?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "shorts",
+      "category": "cloth"
+    },
+    {
+      "id": 38,
+      "name": "Хлопковые шорты",
+      "price": 1190,
+      "img": "https://images.unsplash.com/photo-1695918428860-a3bc6a2f1d4b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "shorts",
+      "category": "cloth"
+    },
+    {
+      "id": 39,
+      "name": "Шорты для плавания",
+      "price": 890,
+      "img": "https://images.unsplash.com/photo-1746527971885-001a9643e0a7?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "shorts",
+      "category": "cloth"
+    },
+    {
+      "id": 40,
+      "name": "Шорты-карго",
+      "price": 1590,
+      "img": "https://plus.unsplash.com/premium_photo-1695844419276-f8e42c19a1ca?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "shorts",
+      "category": "cloth"
+    },
+    {
+      "id": 41,
+      "name": "Льняные шорты",
+      "price": 1350,
+      "img": "https://plus.unsplash.com/premium_photo-1722764878298-22f1308bf3d7?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "shorts",
+      "category": "cloth"
+    },
+    {
+      "id": 42,
+      "name": "Укороченные шорты",
+      "price": 1050,
+      "img": "https://plus.unsplash.com/premium_photo-1741708876106-52d40df889ba?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "shorts",
+      "category": "cloth"
+    },
+    {
+      "id": 43,
+      "name": "Трикотажные шорты",
+      "price": 990,
+      "img": "https://plus.unsplash.com/premium_photo-1664874602679-84748d471973?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "shorts",
+      "category": "cloth"
+    },
+    {
+      "id": 44,
+      "name": "Классические брюки",
+      "price": 2390,
+      "img": "https://images.unsplash.com/photo-1516540896870-2aed89d0288f?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "pants",
+      "category": "cloth"
+    },
+    {
+      "id": 45,
+      "name": "Джинсы прямого кроя",
+      "price": 2790,
+      "img": "https://images.unsplash.com/photo-1604272804518-4496d93d3652?q=80&w=1156&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "pants",
+      "category": "cloth"
+    },
+    {
+      "id": 46,
+      "name": "Зауженные джинсы",
+      "price": 2890,
+      "img": "https://plus.unsplash.com/premium_photo-1690350731538-57344931ac02?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "pants",
+      "category": "cloth"
+    },
+    {
+      "id": 47,
+      "name": "Чиносы",
+      "price": 2290,
+      "img": "https://images.unsplash.com/photo-1499202977705-65f436dac18a?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "pants",
+      "category": "cloth"
+    },
+    {
+      "id": 48,
+      "name": "Спортивные штаны",
+      "price": 1990,
+      "img": "https://images.unsplash.com/photo-1621573094640-0b2391e9acec?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "pants",
+      "category": "cloth"
+    },
+    {
+      "id": 49,
+      "name": "Штаны-карго",
+      "price": 2490,
+      "img": "https://images.unsplash.com/photo-1542272604-787c3835535d?q=80&w=1026&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "pants",
+      "category": "cloth"
+    },
+    {
+      "id": 50,
+      "name": "Тёплые флисовые штаны",
+      "price": 2690,
+      "img": "https://plus.unsplash.com/premium_photo-1676389766118-feebadcc087f?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "pants",
+      "category": "cloth"
+    },
+    {
+      "id": 51,
+      "name": "Льняные брюки",
+      "price": 2190,
+      "img": "https://plus.unsplash.com/premium_photo-1723826753103-059ab0675e86?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "pants",
+      "category": "cloth"
+    },
+    {
+      "id": 52,
+      "name": "Смартфон Samsung Galaxy A54",
+      "price": 27990,
+      "img": "https://images.unsplash.com/photo-1662561466246-296d8d096200?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "phone",
+      "category": "electronics"
+    },
+    {
+      "id": 53,
+      "name": "Смартфон Xiaomi Redmi Note 13",
+      "price": 21990,
+      "img": "https://images.unsplash.com/photo-1666152686611-389b295f4cc6?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "phone",
+      "category": "electronics"
+    },
+    {
+      "id": 54,
+      "name": "Смартфон iPhone 14",
+      "price": 74990,
+      "img": "https://images.unsplash.com/photo-1678685888221-cda773a3dcdb?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "phone",
+      "category": "electronics"
+    },
+    {
+      "id": 55,
+      "name": "Смартфон Realme C67",
+      "price": 15990,
+      "img": "https://images.unsplash.com/photo-1674751869744-27eddb18e4a7?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "phone",
+      "category": "electronics"
+    },
+    {
+      "id": 56,
+      "name": "Смартфон Google Pixel 7a",
+      "price": 44990,
+      "img": "https://images.unsplash.com/photo-1703268529412-626abdfaa934?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "phone",
+      "category": "electronics"
+    },
+    {
+      "id": 57,
+      "name": "Смартфон Honor 90 Lite",
+      "price": 17990,
+      "img": "https://plus.unsplash.com/premium_photo-1680341133734-ab3a75307e3f?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "phone",
+      "category": "electronics"
+    },
+    {
+      "id": 58,
+      "name": "Смартфон Vivo V30",
+      "price": 30990,
+      "img": "https://images.unsplash.com/photo-1730817403362-e26933d03bf3?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "phone",
+      "category": "electronics"
+    },
+    {
+      "id": 59,
+      "name": "Смартфон OnePlus Nord CE 3",
+      "price": 26990,
+      "img": "https://images.unsplash.com/photo-1655384851805-31f6fffcfab6?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "phone",
+      "category": "electronics"
+    },
+    {
+      "id": 60,
+      "name": "Смартфон Tecno Spark 20 Pro",
+      "price": 12990,
+      "img": "https://images.unsplash.com/photo-1730818877095-86cfe4dd608b?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "phone",
+      "category": "electronics"
+    },
+    {
+      "id": 61,
+      "name": "Смартфон Sony Xperia 10 V",
+      "price": 56990,
+      "img": "https://images.unsplash.com/photo-1695435478239-0828b8bfc8c1?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "phone",
+      "category": "electronics"
+    },
+    {
+      "id": 62,
+      "name": "Телевизор Samsung 55 UHD 4K",
+      "price": 44990,
+      "img": "https://images.unsplash.com/photo-1606646079334-198d57d26911?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "tv",
+      "category": "electronics"
+    },
+    {
+      "id": 63,
+      "name": "Телевизор LG 50 NanoCell",
+      "price": 53990,
+      "img": "https://plus.unsplash.com/premium_photo-1683121217848-44dde7d393e6?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "tv",
+      "category": "electronics"
+    },
+    {
+      "id": 64,
+      "name": "Телевизор Sony Bravia 65 OLED",
+      "price": 139990,
+      "img": "https://plus.unsplash.com/premium_photo-1682274001252-cd39d7158ae3?q=80&w=992&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "tv",
+      "category": "electronics"
+    },
+    {
+      "id": 65,
+      "name": "Телевизор Xiaomi Mi TV 43",
+      "price": 32990,
+      "img": "https://images.unsplash.com/photo-1646861039459-fd9e3aabf3fb?q=80&w=1026&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "tv",
+      "category": "electronics"
+    },
+    {
+      "id": 66,
+      "name": "Телевизор TCL 55 QLED",
+      "price": 41990,
+      "img": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "tv",
+      "category": "electronics"
+    },
+    {
+      "id": 67,
+      "name": "Телевизор Philips 50 Smart TV",
+      "price": 37990,
+      "img": "https://images.unsplash.com/photo-1593067607070-95193763e3ab?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "tv",
+      "category": "electronics"
+    },
+    {
+      "id": 68,
+      "name": "Телевизор Hyundai 40 LED",
+      "price": 22990,
+      "img": "https://plus.unsplash.com/premium_photo-1664302149029-50514758ed8b?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "tv",
+      "category": "electronics"
+    },
+    {
+      "id": 69,
+      "name": "Телевизор Haier 32",
+      "price": 14990,
+      "img": "https://images.unsplash.com/photo-1615986200762-a1ed9610d3b1?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "tv",
+      "category": "electronics"
+    },
+    {
+      "id": 70,
+      "name": "Телевизор BBK 24",
+      "price": 8990,
+      "img": "https://plus.unsplash.com/premium_photo-1664298584121-c3d78155e613?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "tv",
+      "category": "electronics"
+    },
+    {
+      "id": 71,
+      "name": "Телевизор Erisson 39",
+      "price": 17990,
+      "img": "https://plus.unsplash.com/premium_photo-1683141466154-93a114fb1e5d?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "tv",
+      "category": "electronics"
+    },
+    {
+      "id": 72,
+      "name": "Ноутбук Apple MacBook Air M2",
+      "price": 114990,
+      "img": "https://images.unsplash.com/photo-1710905219584-8521769e3678?q=80&w=1255&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "laptop",
+      "category": "electronics"
+    },
+    {
+      "id": 73,
+      "name": "Ноутбук ASUS Vivobook 15",
+      "price": 47990,
+      "img": "https://images.unsplash.com/photo-1724148851408-81d75d159864?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "laptop",
+      "category": "electronics"
+    },
+    {
+      "id": 74,
+      "name": "Ноутбук HP Pavilion 14",
+      "price": 52990,
+      "img": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "laptop",
+      "category": "electronics"
+    },
+    {
+      "id": 75,
+      "name": "Ноутбук Lenovo IdeaPad 3",
+      "price": 39990,
+      "img": "https://images.unsplash.com/photo-1626890870463-9ce3b755f98c?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "laptop",
+      "category": "electronics"
+    },
+    {
+      "id": 76,
+      "name": "Ноутбук Acer Aspire 7",
+      "price": 57990,
+      "img": "https://images.unsplash.com/photo-1693206578613-144dd540b892?q=80&w=1073&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "laptop",
+      "category": "electronics"
+    },
+    {
+      "id": 77,
+      "name": "Ноутбук MSI Modern 14",
+      "price": 49990,
+      "img": "https://images.unsplash.com/photo-1617294864705-eaf3c911259f?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "laptop",
+      "category": "electronics"
+    },
+    {
+      "id": 78,
+      "name": "Ноутбук Dell Inspiron 15",
+      "price": 54990,
+      "img": "https://images.unsplash.com/photo-1593642634315-48f5414c3ad9?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "laptop",
+      "category": "electronics"
+    },
+    {
+      "id": 79,
+      "name": "Ноутбук Huawei MateBook D15",
+      "price": 48990,
+      "img": "https://images.unsplash.com/photo-1704360856674-b42e091ffa33?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "laptop",
+      "category": "electronics"
+    },
+    {
+      "id": 80,
+      "name": "Ноутбук HONOR MagicBook X14",
+      "price": 45990,
+      "img": "https://plus.unsplash.com/premium_photo-1681702178555-ab53d9f8d912?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "laptop",
+      "category": "electronics"
+    },
+    {
+      "id": 81,
+      "name": "Ноутбук Xiaomi RedmiBook Pro",
+      "price": 52990,
+      "img": "https://images.unsplash.com/photo-1619606619096-c759b30552bd?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "laptop",
+      "category": "electronics"
+    }
+  ]
+}
