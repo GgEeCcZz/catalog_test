@@ -1,6 +1,6 @@
 import type { Product } from '@/shared/types/types.ts';
-import { useAppDispatch } from '@/store/hooks.ts';
-import { addItem } from '@/store/cartSlice.ts';
+import { useAppDispatch } from '@/store/hooks';
+import { addItem } from '@/store/slices/cartSlice.ts';
 
 type ProductCardProps = {
     product: Product;

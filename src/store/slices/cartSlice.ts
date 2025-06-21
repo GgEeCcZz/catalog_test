@@ -1,12 +1,6 @@
 import { createSlice, type PayloadAction } from '@reduxjs/toolkit';
 import { loadFromLocalStorage } from '@/shared/helpers/loaclStorage.ts';
-
-export type CartItem = {
-    id: number;
-    name: string;
-    price: number;
-    quantity: number;
-}
+import type { CartItem } from '@/shared/types/types.ts';
 
 type CartState = {
     items: CartItem[];

@@ -1,33 +1,5 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
-import type { Product } from '@/shared/types/types.ts';
-
-type GetProductsParams = {
-    category?: string;
-    page?: number;
-    perPage?: number;
-    sortField?: string;
-}
-
-type ServerResponse = {
-    data: Product[];
-    first: number;
-    items: number;
-    last: number;
-    next: number | null;
-    pages: number;
-    prev: number | null;
-}
-
-type TransformServerResponse = {
-    data: Product[];
-    firstPage: number;
-    totalCount: number;
-    lastPage: number;
-    nextPage: number | null;
-    totalPages: number;
-    prevPage: number | null;
-}
-
+import type { GetProductsParams, ServerResponse, TransformServerResponse } from '@/shared/types/types.ts';
 
 export const productsApi = createApi({
     reducerPath: 'productsApi',
@@ -47,22 +19,14 @@ export const productsApi = createApi({
                 };
             },
             transformResponse: (response: ServerResponse) => {
-                const itemsArray: Product[] = Array.isArray(response.data) ? response.data : [];
-                const firstPage = response.first;
-                const totalCount = response.items;
-                const lastPage = response.last;
-                const nextPage = response.next;
-                const totalPages = response.pages;
-                const prevPage = response.prev;
-
                 return {
-                    data: itemsArray,
-                    firstPage,
-                    totalCount,
-                    lastPage,
-                    nextPage,
-                    totalPages,
-                    prevPage
+                    data: Array.isArray(response.data) ? response.data : [],
+                    firstPage: response.first,
+                    totalCount: response.items,
+                    lastPage: response.last,
+                    nextPage: response.next,
+                    totalPages: response.pages,
+                    prevPage: response.prev
                 }
             }
         })

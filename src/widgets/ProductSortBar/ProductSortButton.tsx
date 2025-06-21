@@ -13,7 +13,7 @@ export const ProductSortButton = ({sortField, handleProductSort, sortName, label
     return (
         <button
             className='p-1 hover:bg-[#CCCCCC] active:bg-gray-300'
-            onClick={() => handleProductSort()}
+            onClick={handleProductSort}
         >
             {label} {arrow}
         </button>
